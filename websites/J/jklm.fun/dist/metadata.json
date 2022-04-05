@@ -9,10 +9,11 @@
       "en": "Chill multiplayer minigames: trivia quiz, word, guessing, drawing games and more. Great for streams and hangouts!"
     },
     "url": "jklm.fun",
-    "version": "1.0",
+    "version": "1.0.0",
     "logo": "https://i.imgur.com/p4J7thX.png",
     "thumbnail": "https://i.imgur.com/L45Ca0W.png",
     "color": "#8157e5",
+    "category": "games",
     "tags": [
         "game",
         "bombparty",
@@ -20,5 +21,5 @@
         "jklm",
         "fun"
     ],
-    "category": "games",
+    
   }
