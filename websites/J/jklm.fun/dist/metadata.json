@@ -1,0 +1,58 @@
+{
+    "$schema": "https://schemas.premid.app/metadata/1.7",
+    "author": {
+      "name": "USER",
+      "id": "ID"
+    },
+    "contributors": [
+      {
+        "name": "USER",
+        "id": "ID"
+      }
+    ],
+    "service": "SERVICE",
+    "altnames": ["SERVICE"],
+    "description": {
+      "en": "DESCRIPTION"
+    },
+    "url": "URL",
+    "version": "VERSION",
+    "logo": "URL",
+    "thumbnail": "URL",
+    "color": "#HEX000",
+    "tags": ["TAG1", "TAG2"],
+    "category": "CATEGORY",
+    "regExp": "REGEXP",
+    "iFrameRegExp": "REGEXP",
+    "iframe": false,
+    "readLogs": false,
+    "settings": [
+      {
+        "id": "ID",
+        "multiLanguage": true
+      },
+      {
+        "id": "ID",
+        "title": "DISPLAY TITLE",
+        "icon": "FONTAWESOME ICON",
+        "value": true
+      },
+      {
+        "id": "ID",
+        "if": {
+          "ID": true
+        },
+        "title": "DISPLAY TITLE",
+        "icon": "FONTAWESOME ICON",
+        "value": "\"%song%\" by %artist%",
+        "placeholder": "use %song% or %artist%"
+      },
+      {
+        "id": "ID",
+        "title": "DISPLAY TITLE",
+        "icon": "FONTAWESOME ICON",
+        "value": 0,
+        "values": ["1", "2", "etc."]
+      }
+    ]
+  }
