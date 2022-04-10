@@ -1,26 +1,9 @@
 const presence = new Presence({
 	//The client ID of the Application created at https://discordapp.com/developers/applications
-	clientId: "000000000000000000"
+	clientId: "960796769501995019"
 	}),
-	//You can use this to get translated strings in their browser language
-	strings = presence.getStrings({
-	  play: "presence.playback.playing",
-	  pause: "presence.playback.paused"
-	});
-  
-  /*
-  function myOutsideHeavyLiftingFunction(){
-	  //Grab and process all your data here
-  
-	  // element grabs //
-	  // api calls //
-	  // variable sets //
-  }
-  
-  setInterval(myOutsideHeavyLiftingFunction, 10000);
-  //Run the function separate from the UpdateData event every 10 seconds to get and set the variables which UpdateData picks up
-  */
-  
+	browsingTimestamp = Math.floor(Date.now() / 1000);
+
   presence.on("UpdateData", async () => {
 	/*UpdateData is always firing, and therefore should be used as your refresh cycle, or `tick`. This is called several times a second where possible.
   
