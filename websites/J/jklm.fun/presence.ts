@@ -11,20 +11,8 @@ const presence = new Presence({
   
 	const presenceData: PresenceData = {
 	  //The large image on the presence. This can be a key of an image uploaded on the Discord Developer Portal - Rich Presence - Art Assets, or a URL to an image
-	  largeImageKey: "key",
-	  //The small image on the presence. This can be a key of an image uploaded on the Discord Developer Portal - Rich Presence - Art Assets, or a URL to an image
-	  smallImageKey: "https://mycrazywebsite.com/coolImage.png",
-	  //The text which is displayed when hovering over the small image
-	  smallImageText: "Some hover text",
-	   //The upper section of the presence text
-	  details: "Browsing Page Name",
-	  //The lower section of the presence text
-	  state: "Reading section A",
-	  //The unix epoch timestamp for when to start counting from
-	  startTimestamp: 3133657200000,
-	  //If you want to show Time Left instead of Elapsed, this is the unix epoch timestamp at which the timer ends
-	  endTimestamp: 3133700400000
-	  //Optionally you can set a largeImageKey here and change the rest as variable subproperties, for example presenceData.type = "blahblah"; type examples: details, state, etc.
+	  largeImageKey: "jklm512",
+	  startTimestamp: browsingTimestamp
 	};
 	//Update the presence with all the values from the presenceData object
 	if (presenceData.details) presence.setActivity(presenceData);
